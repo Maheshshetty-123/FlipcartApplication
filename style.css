@@ -1,0 +1,271 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(240, 240, 236);
+}
+
+/*nav bar start*/
+.navbar{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+    background-color:rgb(11, 100, 250);
+    height: 57px;
+    width: 100%;
+    list-style: none;
+}
+
+.flipimg{
+  margin-left: 140px;
+  padding-right: 0px;
+}
+ul li p{
+ margin-top: 15px;
+font-weight: bold;
+font-size: 15px;
+}
+
+.navinput{
+    border-radius: 1px;
+    border: none;
+    background-color: white;
+    margin-right: 40px;
+    position: relative;
+    left: 7px;
+    font-size: 14px;
+    padding-left: 14px;
+    font-weight: bolder;
+}
+.nav-btn{
+    margin-right: 200px;
+    margin-left: 0px;
+    position:relative;
+    left: -13px;
+    font-size: 15px;
+    padding-right: 14px;
+}
+.sell p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    word-spacing: 2px;
+    position: relative;
+    left: -180px;
+    width: 150px;
+}
+
+.more{
+    position: relative;
+    right: 185px;
+    background-color:rgb(11, 100, 250);
+}
+select{
+    width: 70px;
+     background-color: rgb(11, 100, 250); 
+     border: none; 
+    color: white; 
+    font-weight: bold;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    right: 140px;
+    top: 2px;
+    color: white;
+    font-weight: bold;
+}
+.cart img{
+   margin-right: 7px;
+}
+/*nav bar end*/
+
+
+
+/*section 1  start */
+
+.secdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 70px;
+}
+
+.secdiv span img{
+height: 60px;
+width:60px ;
+margin-top: 15px;
+}
+
+.secdiv span p{
+    font-weight: bold;
+    font-size: 13px;
+}
+.maindiv{
+    position: relative;
+    bottom: 16px;
+    background-color: white;
+}
+/*section 1  end */
+
+
+
+/*discount section start */
+
+.discountdiv{
+    border: 1px black;
+  background-color: #ffffff;
+}
+.discountdiv img {
+margin-left: 380px;
+margin-top: 10px;
+margin-bottom: 10px;
+width: 600px;
+}
+
+/* discount section  end */
+
+
+/*section 2  end */
+.lastsect{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.left{
+    width: 250px;
+    height: 350px;
+}
+.middle{
+    width: 740px;
+    height: 350px;
+    background-color:white;
+}
+.right img{
+    width: 250px;
+    height: 350px;
+}
+.left span{
+  padding-left: 100px;
+}
+
+.top{
+    background-color:white;
+    height: 250px;
+    width: 300px;
+}
+.top button{
+    width: 90px;
+    height: 30px;
+    font-size: 12px;
+    margin-left: 90px;
+    margin-top: 20px;
+    background-color: rgb(11, 100, 250);
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+.top h3{
+    margin-left: 70px;
+    margin-top: 90px;
+}
+.bottom img{
+    height: 112px;
+    width: 300px;
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.middle span img{
+    height: 270px;
+    width: 165px;
+    padding: 0px;
+}
+.middle span span p{
+    margin-top: 10px;
+    margin-left: 20px;
+    line-height:8px;
+}
+/*section 2  end */
+
+
+/*section 3  start */
+.img-div{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*section 3  end */
+
+
+/*section 4  start */
+
+.capture{
+    background-color: white;
+}
+.capture div img{
+    margin: 10px 20px;
+    width: 1313px;
+    border-radius: 10px;
+}
+
+/*section 3  end */
+
+/*rate section   start */
+
+.rate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.rate div img{
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/*rate section   end */
+
+/* 
+.foot{
+    background-color: rgb(27, 24, 43);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.foot-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.foot-left span span span ul{
+font-size: 10px;
+list-style: none;
+} */
+
+
+}
+.foot-left ul li{
+    list-style: none;
+}
